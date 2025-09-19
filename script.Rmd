@@ -11,6 +11,7 @@ coviddata = read.table("covid_aggregated.txt")
 ```{r}
 plot(1:length(coviddata$V2), coviddata$V2)
 lines(1:length(coviddata$V2),coviddata$V2)
+#lol
 ```
 
 
